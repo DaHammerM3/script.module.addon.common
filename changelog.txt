@@ -1,7 +1,3 @@
-[B]Version 1.1.0[/B]
-- Renamed to script.module.addon.common
-- Added properties to be passed in when creating items
-- 
-
-[B]Version 1.0.0[/B]
-- Initial Release.
+[B]Version 2.0.0[/B]
+- Cloned from t0mm0.common, renamed
+- Added properties to be passed in to add items
