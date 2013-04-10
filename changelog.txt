@@ -1,0 +1,7 @@
+[B]Version 1.1.0[/B]
+- Renamed to script.module.addon.common
+- Added properties to be passed in when creating items
+- 
+
+[B]Version 1.0.0[/B]
+- Initial Release.
