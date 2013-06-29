@@ -154,7 +154,20 @@ class Addon:
             str containing the requested setting.
         '''
         return self.addon.getSetting(setting)
+
+
+    def set_setting(self, setting, value):
+        '''
+        Sets an addon setting. Settings must be defined in your addon's
+        ``resources/settings.xml`` file.
         
+        Args:
+            setting (str): Name of the setting to be retrieved.
+            value (str): Value of the setting
+            
+        '''
+        self.addon.setSetting(id=setting, value=value)
+
 
     def get_string(self, string_id):
         '''
