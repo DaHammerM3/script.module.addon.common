@@ -16,7 +16,8 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-__ALL__ = ['addon', 'net']
+from addon import Addon
 
-import common
-common.addon.log('Initializing addon.common version: %s' % common.addon_version)
+addon = Addon('script.module.addon.common')
+addon_path = addon.get_path()
+addon_version = addon.get_version()
